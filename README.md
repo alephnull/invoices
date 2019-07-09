@@ -22,5 +22,4 @@ Modify the template file to your needs. Change names, etc.
 A file `invoice.last` is stored in current dir to keep track of invoice numbers.
 
 ## Credits
-I shamelessly stole and hacked dapper-invoice from [mkropat/dapper-invoice](/mkropat/dapper-invoice) to add a month based itemisation template. It isn't very pretty though the output looks nice.
-
+I hacked [mkropat/dapper-invoice](/mkropat/dapper-invoice) to add a month based itemisation template. It isn't very pretty though the output looks nice.
