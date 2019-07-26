@@ -7,6 +7,7 @@ gen:
 
 %.pdf: %.tex dapper-invoice.cls
 	xelatex $< && xelatex $< #Twice for references
+	ln sent/$@ $@
 
 install: dapper-invoice.cls
 	mkdir -p "$$(kpsewhich -expand-var '$$TEXMFHOME')/tex/latex/base"
